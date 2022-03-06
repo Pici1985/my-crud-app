@@ -1,0 +1,19 @@
+
+<!-- <p>{{entries.entries | json}}</p> -->
+<div class="card-wrapper">
+    <div *ngFor="let entry of entries.entries">
+        <mat-card>
+            <mat-card-title>
+                {{entry.API}}
+            </mat-card-title>        
+            <p><span>Description: </span>{{entry.Description}}</p>
+            <p><span>Authentication: </span>{{entry.Auth}}</p>
+            <p><span>HTTPS: </span>{{entry.HTTPS}}</p>
+            <p><span>Cors: </span>{{entry.Cors}}</p>
+            <mat-card-subtitle>
+                <a href="{{entry.Link}}">{{entry.Link}}</a>
+            </mat-card-subtitle>
+        </mat-card>
+    </div>
+</div>
+    
