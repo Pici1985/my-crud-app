@@ -10,20 +10,29 @@ import { GetApisComponent } from './get-apis/get-apis.component';
 
 import {MatCardModule} from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
+import { RandomUserComponent } from './random-user/random-user.component';
+import { JustFieldsComponent } from './just-fields/just-fields.component';
+
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     GetRequestComponent,
-    GetApisComponent
+    GetApisComponent,
+    RandomUserComponent,
+    JustFieldsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     MatCardModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
