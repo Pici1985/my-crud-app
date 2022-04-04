@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import { RandomUserComponent } from './random-user/random-user.component';
 import { JustFieldsComponent } from './just-fields/just-fields.component';
+import { PostComponent } from './post/post.component';
 
 
 
@@ -24,7 +25,8 @@ import { JustFieldsComponent } from './just-fields/just-fields.component';
     GetRequestComponent,
     GetApisComponent,
     RandomUserComponent,
-    JustFieldsComponent
+    JustFieldsComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
